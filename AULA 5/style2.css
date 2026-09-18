@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    heigth: 100%;
+}
+
+body ,{
+    display; grid;
+    grid-template-rows: auto 1fr auto;
+    min-heite: 100vh}
+
+    header {
+        background-color: blue;
+        color: aqua;
+        padding: 20px;
+    }
+    main{
+        background-color: white; 
+        padding: 20px;
+        overflow: auto;
+
+    }
